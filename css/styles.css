@@ -25,6 +25,10 @@ body {
   text-decoration: none;
 }
 
+.button {
+  cursor: pointer;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
