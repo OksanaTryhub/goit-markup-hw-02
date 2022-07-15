@@ -2,7 +2,9 @@
 --белый: #ffffff
 основной цвет заголовков - #212121
 основной цвет текста - #757575
-вторичный цвет фона - #F5F4FA */
+вторичный цвет фона - #F5F4FA 
+цвет фона hero, footer - #2F303A
+*/
 
 :root {
   --accent-color: #2196f3;
@@ -57,7 +59,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.header-logo {
   color: #000000;
+}
+
+.footer-logo {
+  color: #ffffff;
 }
 
 .logo-accent {
@@ -86,7 +95,7 @@ body {
 
 /* HERO */
 .hero {
-  background-color: #757575;
+  background-color: #2f303a;
 }
 .hero-title {
   font-size: 44px;
@@ -152,7 +161,7 @@ body {
 /* footer */
 
 footer {
-  background-color: #616274;
+  background-color: #2f303a;
 }
 .contacts-list {
   font-style: normal;
